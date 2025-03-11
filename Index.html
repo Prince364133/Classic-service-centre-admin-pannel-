@@ -222,6 +222,13 @@ canvas {
             <div id="services"></div>
         </div>
     </div>
+    <button id="openGraph">📊 View Visitor Analytics</button>
+
+<script>
+document.getElementById("openGraph").addEventListener("click", function() {
+    window.location.href = "index.html";
+});
+</script>
     <script>document.addEventListener("DOMContentLoaded", () => {
     checkSession();
     updateVisitorCount();
